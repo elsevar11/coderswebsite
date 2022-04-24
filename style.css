@@ -479,7 +479,7 @@
   padding-top: 20px;
 }
 
-.container {
+.body-2 .container {
   width: 90%;
   margin: 50px auto;
 }
@@ -494,14 +494,14 @@
   line-height: 48px;
 }
 
-.row {
+.body-2 .row {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   flex-flow: wrap;
 }
 
-.card {
+.body-2 .card {
   width: 20%;
   background: #deeefc;
   border-radius: 4px;
@@ -510,20 +510,20 @@
   transition: 0.3s;
 }
 
-.card-header {
+.body-2 .card-header {
   text-align: center;
   padding: 50px 10px;
   background: linear-gradient(to right, #ff416c, #ff4b2b);
   color: #fff;
 }
 
-.card-body {
+.body-2 .card-body {
   padding: 30px 20px;
 
   font-size: 18px;
 }
 
-.card-body .btn {
+.body-2 .card-body .btn {
   display: block;
   color: #fff;
   text-align: center;
@@ -533,19 +533,19 @@
   padding: 10px 5px;
 }
 
-.card:hover {
+.body-2 .card:hover {
   transform: scale(1.05);
   box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
 }
 
-.card-body h5 {
+.body-2 .card-body h5 {
   font-family: "IBM Plex Sans";
   font-style: normal;
   font-weight: 500;
   font-size: 24px;
   line-height: 34px;
 }
-.card-body p {
+.body-2 .card-body p {
   font-family: "IBM Plex Sans";
   font-style: normal;
   font-weight: 500;
@@ -553,7 +553,7 @@
   line-height: 22px;
   padding-top: 34px;
 }
-.card-body h6 {
+.body-2 .card-body h6 {
   font-family: "IBM Plex Sans";
   font-style: normal;
   font-weight: 700;
@@ -561,7 +561,7 @@
   line-height: 40px;
   padding-top: 20px;
 }
-.card-body h6 span {
+.body-2 .card-body h6 span {
   font-family: "IBM Plex Sans";
   font-style: normal;
   font-weight: 400;
@@ -569,38 +569,38 @@
   line-height: 22px;
   padding-top: 24px;
 }
-.card-body .btn-paket {
+.body-2 .card-body .btn-paket {
   padding-top: 40px;
   padding-left: 0px;
   padding-right: 0px;
   text-align: center;
 }
-.card-body .btn-paket a {
+.body-2 .card-body .btn-paket a {
   text-decoration: none;
 }
 
-.card-body .btn-paket a {
+.body-2 .card-body .btn-paket a {
   background: #1064e5;
   border-radius: 45px;
   padding: 9.8px 24px;
   color: #fff !important;
 }
-.card-body .btn-paket a:hover {
+.body-2 .card-body .btn-paket a:hover {
   color: #1064e5 !important;
   border: 1.8px solid #1064e5;
   border-radius: 45px;
   padding: 8px 22.2px;
   background: #fff !important;
 }
-.card-body .btn-paket a:active {
+.body-2 .card-body .btn-paket a:active {
   background: #0046b0 !important;
   color: #fff !important;
 }
-.card-body .btn-paket a:disabled {
+.body-2 .card-body .btn-paket a:disabled {
   background: #1064e5;
   opacity: 0.4;
 }
-.indiv {
+.body-2 .indiv {
   line-height: 40px;
   padding-top: 20px;
   padding-bottom: 17px;
@@ -1070,10 +1070,10 @@ nav span::after {
     font-size: 13px;
     color: #bbbbbb;
   } */
-  .row .col{
+  #contact .row .col{
     position: relative;
   }
-  .row .col .signy_2020{
+  #contact .row .col .signy_2020{
     position: absolute;
     bottom: 0;
   }
@@ -1090,6 +1090,118 @@ nav span::after {
   .col h5 a{
     color: #FFF;
     text-decoration: none;
+  }
+  .section-contanier{
+    background: #DEEEFC;
+
+
+  }
+  .container {
+    width: 50%;
+    
+
+    margin: 0 auto;
+  }
+  .container h3{
+    font-family: 'IBM Plex Serif';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 48px;
+/* or 120% */
+
+text-align: center;
+
+color: rgba(6, 18, 36, 0.9);
+  }
+  .ac-label {
+    /* font-weight: 700; */
+    position: relative;
+    padding: 0.5em 0;
+    margin-bottom: 0.5em;
+    display: block;
+    cursor: pointer;
+    background-color: #DEEEFC;
+    transition: background-color 0.15s ease-in-out;
+  
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    /* or 122% */
+    
+    
+    color: rgba(6, 18, 36, 0.9);
+  }
+  .ac-input:checked + label, .ac-label:hover {
+    background-color: #DEEEFC;
+  }
+  .ac-label:after, .ac-input:checked + .ac-label:after {
+    content: "+";
+    position: absolute;
+    display: block;
+    right: 0;
+    top: 0;
+    width: 2em;
+    height: 100%;
+    line-height: 2.25em;
+    text-align: center;
+    background-color: #DEEEFC;
+    transition: background-color 0.15s ease-in-out;
+  }
+  .ac-label:hover:after, .ac-input:checked + .ac-label:after {
+    background-color: #DEEEFC;
+  }
+  .ac-input:checked + .ac-label:after {
+    content: "-";
+  }
+  .ac-input {
+    display: none;
+  }
+  .ac-text, .ac-sub-text {
+    opacity: 0;
+    height: 0;
+    margin-bottom: 0.5em;
+    transition: opacity 0.5s ease-in-out;
+    overflow: hidden;
+  }
+  .ac-input:checked ~ .ac-text, .ac-sub .ac-input:checked ~ .ac-sub-text {
+    opacity: 1;
+    height: auto;
+  }
+  .ac-sub .ac-label {
+    background: none;
+    /* font-weight: 600; */
+    padding: 0.5em 2em;
+    margin-bottom: 0;
+    font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+/* or 122% */
+
+
+color: rgba(6, 18, 36, 0.9);
+  
+  
+  
+  color: rgba(6, 18, 36, 0.9);
+  }
+  .ac-sub .ac-label:checked {
+    background: none;
+    border-bottom: 1px solid #DEEEFC;
+  }
+  .ac-sub .ac-label:after, .ac-sub .ac-input:checked + .ac-label:after {
+    left: 0;
+    background: none;
+  }
+  .ac-sub .ac-input:checked + label, .ac-sub .ac-label:hover {
+    background: none;
+  }
+  .ac-sub-text {
+    padding: 0 1em 0 2em;
   }
   
   
@@ -1629,7 +1741,7 @@ nav span::after {
     font-size: 20px;
   }
 
-  .card {
+  .body-2 .card {
     width: 80%;
   }
   .body-3 div h2 {
@@ -1768,6 +1880,25 @@ nav span::after {
   }
   .arrow-yuxari img{
     margin-right: 1 0px;
+  }
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .ac-label {
+    
+  font-size: 14px;
+  
+  }
+ 
+  
+  
+  
+  .ac-sub .ac-label {
+  font-size: 14px;
+  
+  
+ 
   }
 
 }
@@ -2129,5 +2260,26 @@ nav span::after {
   .slider1 {
     width: 100%;
     
+  }
+  .container {
+    width: 58%;
+    margin: 0 auto;
+    
+  }
+  .ac-label {
+    
+  font-size: 24px;
+ 
+  }
+  
+  
+  
+  .ac-sub .ac-label {
+   
+  font-size: 16px;
+  
+  
+  
+  
   }
 }

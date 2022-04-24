@@ -929,6 +929,7 @@ color: rgba(6, 18, 36, 0.9);
     font-size: 20px;
     line-height: 10px;
     color: rgba(6, 18, 36, 0.9);
+    width: 100%;
   }
   .Body .tarix-p {
     display: block;
