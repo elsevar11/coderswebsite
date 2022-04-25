@@ -826,7 +826,7 @@
   .register:disabled {
     background: #1064e5;
     opacity: 0.4;
-  }opacity: 0.4;
+  opacity: 0.4;
   }
   .yol {
     margin-left: 10px;
@@ -1174,7 +1174,7 @@
     background: #fff;
     color: var(--maincolor);
   }
-}
+
 
 @media screen and (min-width: 768px) and (max-width: 1223px) {
   .navbar {
