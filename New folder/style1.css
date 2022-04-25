@@ -305,7 +305,20 @@
   content: "\a";
   white-space: pre;
 }
-
+.yol {
+  margin-left: 0px;
+}
+.yol a {
+  text-decoration: none;
+  color: var(--darkcolor);
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 48px;
+  color: #061224;
+  opacity: 0.6;
+}
 .three_btn a {
   text-decoration: none;
   font-family: "IBM Plex Sans";
@@ -878,7 +891,13 @@ color: rgba(6, 18, 36, 0.9);
     display: none;
     font-size: 27px;
   }
-
+  .yol {
+    margin-left: 0px;
+  }
+  .yol a {
+    font-size: 12px;
+    line-height: 20px;
+  }
   .navbar .icon {
     padding-top: 26px;
     padding-right: 10px;
@@ -1717,4 +1736,11 @@ color: rgba(6, 18, 36, 0.9);
   .arrow-yuxari{
     display: none;
   } 
+   .yol {
+    margin-left: 0px;
+  }
+  .yol a {
+    font-size: 12px;
+    line-height: 25px;
+  }
 }
