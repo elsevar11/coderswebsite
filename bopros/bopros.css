@@ -858,22 +858,36 @@ color: rgba(6, 18, 36, 0.9);
     z-index: 1;
   }
   .giris {
-    border: 1.8px solid #1064e5;
+    display:block;
+    border: 1px solid #1064e5;
     font-family: "IBM Plex Sans";
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 24px;
     border-radius: 30px;
-    padding: 6.5px 40%;
+    /* padding: 6.5px 45%; */
     text-align: center;
-    height: auto;
+    padding-top: 5.5px;
+    padding-bottom: 5.5px;
+  }
+  .girism{
+    text-align: center;
+   width: 100%;
+  }
+  .registerm{
+    width: 100%;
+    text-align: center;
   }
 
   .giris:hover {
     background: #1064e5;
     border-radius: 45px;
-    padding: 6.5px 40%;
+    border-radius: 30px;
+    /* padding: 6.5px 45%; */
+    text-align: center;
+    padding-top: 5.5px;
+    padding-bottom: 5.5px;
     color: #fff !important;
   }
   .giris:active {
@@ -888,16 +902,25 @@ color: rgba(6, 18, 36, 0.9);
     /* height: 53.59px; */
     background: #1064e5;
     border-radius: 45px;
-    padding: 8px 28px;
-
+    /* padding: 6.5px 45%; */
+    display:block;
     text-align: center;
     color: #fff !important;
+    border-radius: 30px;
+    /* padding: 6.5px 45%; */
+    text-align: center;
+    padding-top: 5.5px;
+    padding-bottom: 5.5px;
   }
   .register:hover {
     color: #1064e5 !important;
-    border: 1.8px solid #1064e5;
+    border: 1px solid #1064e5;
     border-radius: 45px;
-    padding: 8px 26.2px;
+    border-radius: 30px;
+    /* padding: 6.5px 45%; */
+    text-align: center;
+    padding-top: 5.5px;
+    padding-bottom: 5.5px;
     background: #fff !important;
   }
   .register:active {
@@ -1491,24 +1514,36 @@ color: rgba(6, 18, 36, 0.9);
     z-index: 1;
   }
   .giris {
-    border: 1.8px solid #1064e5;
+    display:block;
+    border: 1px solid #1064e5;
     font-family: "IBM Plex Sans";
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
-
     line-height: 24px;
     border-radius: 30px;
-    padding: 8px 28px;
+    /* padding: 6.5px 45%; */
     text-align: center;
-
-    width: 200px;
+    padding-top: 5.5px;
+    padding-bottom: 5.5px;
+  }
+  .girism{
+    text-align: center;
+   width: 100%;
+  }
+  .registerm{
+    width: 100%;
+    text-align: center;
   }
 
   .giris:hover {
     background: #1064e5;
     border-radius: 45px;
-    padding: 9.8px 28px;
+    border-radius: 30px;
+    /* padding: 6.5px 45%; */
+    text-align: center;
+    padding-top: 5.5px;
+    padding-bottom: 5.5px;
     color: #fff !important;
   }
   .giris:active {
@@ -1520,25 +1555,28 @@ color: rgba(6, 18, 36, 0.9);
     border-color: rgba(89, 90, 91, 0.4) !important;
   }
   .register {
-    border: 1.8px solid #1064e5;
-    font-family: "IBM Plex Sans";
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 24px;
-    border-radius: 30px;
-    padding: 8px 28px;
-    text-align: center;
+    /* height: 53.59px; */
     background: #1064e5;
-    width: 200px;
+    border-radius: 45px;
+    /* padding: 6.5px 45%; */
+    display:block;
+    text-align: center;
     color: #fff !important;
+    border-radius: 30px;
+    /* padding: 6.5px 45%; */
+    text-align: center;
+    padding-top: 5.5px;
+    padding-bottom: 5.5px;
   }
-
   .register:hover {
     color: #1064e5 !important;
-    border: 1.8px solid #1064e5;
+    border: 1px solid #1064e5;
     border-radius: 45px;
-    padding: 8px 26.2px;
+    border-radius: 30px;
+    /* padding: 6.5px 45%; */
+    text-align: center;
+    padding-top: 5.5px;
+    padding-bottom: 5.5px;
     background: #fff !important;
   }
   .register:active {
