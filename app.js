@@ -4,6 +4,12 @@ const navbar = document.querySelector('.navbar')
 const section = document.querySelector('.section')
 const section_2=document.querySelector('.header-2');
 const tab=document.querySelector('.tab-2')
+const vxod = document.querySelector('.girism')
+const login = document.querySelector('.login');
+const letter = document.querySelector('.letter');
+const btnlogin = document.querySelector('.btnlogin');
+const closespan = document.querySelector('.closespan');
+const mainsection = document.querySelector('.mainsection');
 
 hamburger.addEventListener('click', () => {
     section.classList.toggle('sectionactive');
@@ -14,6 +20,21 @@ hamburger.addEventListener('click', () => {
     
     
 })
+// Making Vxod Section
+vxod.addEventListener('click', () => {
+mainsection.classList.toggle('mainsectionactive');  
+login.classList.toggle('loginactive');
+})
+
+btnlogin.addEventListener('click', () => {
+  letter.classList.toggle('letteractive');
+})
+
+closespan.addEventListener('click', () => {
+   login.classList.toggle('logindeactive');
+   mainsection.classList.toggle('mainsectiondeactive');  
+}
+)
 
 
 

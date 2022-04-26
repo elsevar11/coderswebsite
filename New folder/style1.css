@@ -724,10 +724,10 @@ color: rgba(6, 18, 36, 0.9);
       font-size: 13px;
       color: #bbbbbb;
     } */
-.row .col {
+#contact .row .col {
   position: relative;
 }
-.row .col .signy_2020 {
+#contact .row .col .signy_2020 {
   position: absolute;
   bottom: 0;
 }
