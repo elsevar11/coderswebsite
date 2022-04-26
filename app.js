@@ -10,6 +10,7 @@ const letter = document.querySelector('.letter');
 const btnlogin = document.querySelector('.btnlogin');
 const closespan = document.querySelector('.closespan');
 const mainsection = document.querySelector('.mainsection');
+const registerm=document.querySelector('.registerm');
 
 hamburger.addEventListener('click', () => {
     section.classList.toggle('sectionactive');
@@ -21,6 +22,10 @@ hamburger.addEventListener('click', () => {
     
 })
 // Making Vxod Section
+registerm.addEventListener('click', () => {
+  mainsection.classList.toggle('mainsectionactive');  
+  login.classList.toggle('loginactive');
+  })
 vxod.addEventListener('click', () => {
 mainsection.classList.toggle('mainsectionactive');  
 login.classList.toggle('loginactive');

@@ -352,7 +352,7 @@
 }
 .header-icon {
   padding: 30px;
-  width: 330px;
+  width: 33%;
   height: 80px;
   display: flex;
   justify-content: center;
@@ -1371,7 +1371,10 @@ color: rgba(6, 18, 36, 0.9);
   background: #fff;
   color: var(--maincolor);
 }
-
+.mektubimg{
+  text-align: center;
+  margin-top: 60px;
+}
 /* .name h3{
   text-align: center;
   font-family: 'IBM Plex Serif';
@@ -1419,37 +1422,7 @@ color: #061224;
   line-height: 28px;
 
   color: rgba(6, 18, 36, 0.9);
-
-  mix-blend-mode: normal;
-}
-
-.btnlogin {
-  text-align: center;
-}
- .login .name button {
-  width: 40%;
-  margin: auto;
-  height: 40px;
-  border: none;
-  background: #1064e5;
-  border-radius: 45px;
-  color: #fff;
-  font-family: "IBM Plex Sans";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 24px;
-  text-align: center;
-  text-transform: uppercase;
-  transition: 0.5s ease;
-  margin-top: 10px;
-  cursor: pointer;
-  /* white */
-
-  color: #ffffff;
-}
-.login .name button:hover {
-  background: #fff;
+nd: #fff;
   color: var(--maincolor);
 } */
 .wrapper h1{
@@ -2333,7 +2306,7 @@ color: rgba(6, 18, 36, 0.9);
   .arrow-yuxari img{
     margin-right: 1 0px;
   }
-  .container {
+  .section-contanier .container {
     width: 90%;
     margin: 0 auto;
   }
@@ -3101,8 +3074,8 @@ color: #ffffff;
     width: 100%;
     
   }
-  .container {
-    width: 58%;
+  .section-contanier .container {
+    width: 86%;
     margin: 0 auto;
     
   }

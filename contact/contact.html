@@ -21,6 +21,7 @@
     <link rel="stylesheet" href="./contact.css">
 </head>
 <body>
+  <section class="mainsection">
     <section id="header" class="section ">
         <div class="navbar">
           <div class="logo">
@@ -57,8 +58,8 @@
               </li>
               <li><a href="#">ЦЕНЫ</a></li>
               <li><a href="./contact.html">КОНТАКТЫ</a></li>
-              <li><a class="giris" href="#">Вход</a></li>
-              <li><a class="register" href="#">регистрация</a></li>
+              <li class="girism"><a class="giris" href="#">Вход</a></li>
+              <li class="registerm"><a class="register" href="#">регистрация</a></li>
               <li>
                 <div class="dropdown">
                   <a href="#"
@@ -192,7 +193,44 @@
         </div>
       </div>
       </footer>
-     
+    </section>
+    <section class="login">
+      <div class="name">
+        <h3>Демо версия</h3>
+        <p>Заполни форму и наши менеджеры свяжутся с тобой</p>
+        <span class="closespan">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M193.94 256L296.5 153.44l21.15-21.15c3.12-3.12 3.12-8.19 0-11.31l-22.63-22.63c-3.12-3.12-8.19-3.12-11.31 0L160 222.06 36.29 98.34c-3.12-3.12-8.19-3.12-11.31 0L2.34 120.97c-3.12 3.12-3.12 8.19 0 11.31L126.06 256 2.34 379.71c-3.12 3.12-3.12 8.19 0 11.31l22.63 22.63c3.12 3.12 8.19 3.12 11.31 0L160 289.94 262.56 392.5l21.15 21.15c3.12 3.12 8.19 3.12 11.31 0l22.63-22.63c3.12-3.12 3.12-8.19 0-11.31L193.94 256z"/></svg>
+        </span>
+        <form action="#" >
+            <label for="name">Имя*:</label> <br>
+            <input type="text" name="name" id="name" placeholder="Иван" > <br>
+            <label for="email">Электронная почта*:</label> <br>
+            <input type="email" name="email" id="email" placeholder="ivan@mail.com" > <br>
+            <label for="telefon">Телефон*:</label> <br>
+            <input type="number" name="telefon" id="telefon" placeholder="+38 000 000 00 00" > <br>
+          <div class="btnlogin">
+            <button type="submit">submit</button>
+          </div>
+        </form>
+    </div>
+    </section>
+  
+  
+  
+    <section class="letter">
+  
+         
+      <div class="name">
+        <h3>Демо версия</h3>
+        <p>Заполни форму и наши менеджеры свяжутся с тобой</p>
+        <span class="closespan">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path d="M193.94 256L296.5 153.44l21.15-21.15c3.12-3.12 3.12-8.19 0-11.31l-22.63-22.63c-3.12-3.12-8.19-3.12-11.31 0L160 222.06 36.29 98.34c-3.12-3.12-8.19-3.12-11.31 0L2.34 120.97c-3.12 3.12-3.12 8.19 0 11.31L126.06 256 2.34 379.71c-3.12 3.12-3.12 8.19 0 11.31l22.63 22.63c3.12 3.12 8.19 3.12 11.31 0L160 289.94 262.56 392.5l21.15 21.15c3.12 3.12 8.19 3.12 11.31 0l22.63-22.63c3.12-3.12 3.12-8.19 0-11.31L193.94 256z"/></svg>
+        </span>
+        <div class="mektubimg">
+          <img src="./img/Groupmektub.png" alt="">
+        </div>
+      </div>
+    </section>  
   <script src="./contact.js"></script>
 </body>
 </html>

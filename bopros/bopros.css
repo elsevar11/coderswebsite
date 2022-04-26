@@ -406,7 +406,7 @@ color: rgba(6, 18, 36, 0.9);
   padding-bottom: 20px;
   
 }
-.name{
+.yasil .name{
   /* text-align: center; */
 
     margin-top: 10px;
@@ -419,7 +419,7 @@ color: rgba(6, 18, 36, 0.9);
     justify-content: flex-start;
 
 }
-.name p{
+.yasil .name p{
   font-family: 'IBM Plex Sans';
 font-style: normal;
 font-weight: 400;
@@ -431,7 +431,7 @@ text-align: center;
 
 color: rgba(6, 18, 36, 0.9);
 }
-.name h5 {
+.yasil .name h5 {
   /* text-align: center; */
   font-family: "IBM Plex Serif";
   font-style: normal;
@@ -441,13 +441,13 @@ color: rgba(6, 18, 36, 0.9);
 
   color: rgba(6, 18, 36, 0.9);
 }
-.ctn{
+.yasil .ctn{
   text-align: center;
 }
-.name p{
+ .yasil .name p{
   text-align: center;
 }
-.name form input {
+.yasil .name form input {
   outline: none;
   margin-top: 6px;
   margin-bottom: 6px;
@@ -461,7 +461,7 @@ color: rgba(6, 18, 36, 0.9);
   box-sizing: border-box;
   border-radius: 48px;
 }
-.name label {
+.yasil .name label {
   padding-left: 10px;
   margin-bottom: 100px;
   font-family: "IBM Plex Sans";
@@ -474,7 +474,7 @@ color: rgba(6, 18, 36, 0.9);
 
   mix-blend-mode: normal;
 }
-.name textarea {
+.yasil .name textarea {
   margin-top: 6px;
   margin-bottom: 6px;
   width: 350px;
@@ -486,7 +486,7 @@ color: rgba(6, 18, 36, 0.9);
   resize: none;
   padding: 10px;
 }
-.name button {
+.yasil .name button {
  
   width: 217px;
   height: 40px;
@@ -606,10 +606,10 @@ color: rgba(6, 18, 36, 0.9);
       font-size: 13px;
       color: #bbbbbb;
     } */
-.row .col {
+#contact .row .col {
   position: relative;
 }
-.row .col .signy_2020 {
+#contact .row .col .signy_2020 {
   position: absolute;
   bottom: 0;
 }
@@ -626,6 +626,178 @@ color: rgba(6, 18, 36, 0.9);
 .col h5 a {
   color: #fff;
   text-decoration: none;
+}
+.mainsection.mainsectionactive {
+  filter: blur(15px);
+}
+
+.mainsection.mainsectiondeactive {
+  filter: blur(0px);
+}
+/* Making Letter Section */
+.letter {
+height: 400px;  
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+background-color: #DEEEFC;
+padding: 20px;
+border-radius: 10px;
+z-index: 2000;
+display: none;
+}
+
+.letter.letteractive {
+display: block;
+}
+
+
+/* Making Login Section */
+.login {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+background-color: #DEEEFC;
+padding: 20px;
+border-radius: 10px;
+z-index: 2000;
+display: none;
+}
+
+
+
+.login.loginactive {
+display: block;
+}
+
+
+
+
+.login.logindeactive {
+display: none;
+}
+
+
+.closespan {
+position: absolute;
+top: 5px;
+right: 5px;
+cursor: pointer;
+z-index: 2000;
+}
+
+.closespan svg{
+
+width: 25px;
+height: 25px;
+color: #0046b0;
+}
+
+.login form {
+margin-top: 10px;
+
+}
+
+
+.name p{
+text-align: center;
+font-family: 'IBM Plex Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 18px;
+/* identical to box height, or 112% */
+
+text-align: center;
+
+color: rgba(6, 18, 36, 0.9);
+}
+.name h3 {
+text-align: center;
+font-family: "IBM Plex Serif";
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 48px;
+
+color: rgba(6, 18, 36, 0.9);
+}
+.btnlogin{
+text-align: center;
+}
+.name p{
+text-align: center;
+}
+.name form input {
+outline: none;
+margin-top: 6px;
+margin-bottom: 6px;
+width: 100%;
+height: 40px;
+border-radius: 30px;
+padding-left: 10px;
+padding-right: 10px;
+background: #ffffff;
+border: 1px solid rgba(6, 18, 36, 0.9);
+box-sizing: border-box;
+border-radius: 48px;
+}
+.name label {
+padding-left: 10px;
+margin-bottom: 100px;
+font-family: "IBM Plex Sans";
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 28px;
+
+color: rgba(6, 18, 36, 0.9);
+
+mix-blend-mode: normal;
+}
+.name textarea {
+margin-top: 6px;
+margin-bottom: 6px;
+width: 350px;
+height: 138px;
+border-radius: 10px;
+outline: none;
+background: #ffffff;
+width: 350px;
+resize: none;
+padding: 10px;
+}
+.name button {
+
+width: 217px;
+height: 40px;
+border: none;
+background: #1064e5;
+border-radius: 45px;
+color: #fff;
+font-family: "IBM Plex Sans";
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+
+text-align: center;
+text-transform: uppercase;
+transition: 0.5s ease;
+
+/* white */
+
+color: #ffffff;
+}
+.name button:hover {
+background: #fff;
+color: var(--maincolor);
+}
+.mektubimg{
+text-align: center;
+margin-top: 60px;
 }
 
 @media screen and (max-width: 767px) {
@@ -1194,20 +1366,20 @@ color: rgba(6, 18, 36, 0.9);
     height: 133px;
     
   }
-  .forms {
+.yasil   .forms {
     width: 100%;
   }
   .maps {
     
     margin-right: 10px;
   }
-  .name{
+  .yasil .name{
       margin-top: 10px;
       margin-left: 10px;
       margin-right: 10px;
       margin-bottom: 20px;
   }
-  .name{
+ .yasil .name{
     
   
      
@@ -1218,7 +1390,7 @@ color: rgba(6, 18, 36, 0.9);
       justify-content: flex-start;
   
   }
-  .name h5 {
+ .yasil .name h5 {
     font-family: "IBM Plex Serif";
     font-style: normal;
     font-weight: 500;
@@ -1227,7 +1399,7 @@ color: rgba(6, 18, 36, 0.9);
     text-align: center;
     color: rgba(6, 18, 36, 0.9);
   }
-  .name p{
+ .yasil .name p{
     text-align: center;
     font-family: 'IBM Plex Sans';
 font-style: normal;
@@ -1240,7 +1412,7 @@ text-align: center;
 
 color: rgba(6, 18, 36, 0.9);
   }
-  .name form input {
+ .yasil .name form input {
     margin-top: 3px;
     margin-bottom: 3px;
     width: 100%;
@@ -1252,7 +1424,7 @@ color: rgba(6, 18, 36, 0.9);
     box-sizing: border-box;
     border-radius: 48px;
   }
-  .name label {
+ .yasil .name label {
     padding-left: 10px;
     margin-bottom: 100px;
     font-family: "IBM Plex Sans";
@@ -1265,7 +1437,7 @@ color: rgba(6, 18, 36, 0.9);
   
     mix-blend-mode: normal;
   }
-  .name textarea {
+ .yasil .name textarea {
     margin-top: 6px;
     margin-bottom: 6px;
     width: 100%;
@@ -1277,7 +1449,7 @@ color: rgba(6, 18, 36, 0.9);
     resize: none;
     padding: 10px;
   }
-  .name button {
+  .yasil .name button {
     width: 100%;
     height: 40px;
     border: none;
@@ -1298,7 +1470,7 @@ color: rgba(6, 18, 36, 0.9);
   
     color: #ffffff;
   }
-  .name button:hover {
+  .yasil .name button:hover {
     background: #fff;
     color: var(--maincolor);
   }
@@ -1321,6 +1493,247 @@ color: rgba(6, 18, 36, 0.9);
   
  
   }
+
+
+
+
+
+
+
+
+  .letter {
+    height: 400px;  
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #DEEEFC;
+    padding: 20px;
+    border-radius: 10px;
+   z-index: 2000;
+   display: none;
+  }
+  
+  .letter.letteractive {
+    display: block;
+  }
+  
+   
+    /* Making Login Section */
+  .login {
+    position: absolute;
+    top: 27%;
+    left: 40%;
+    
+    transform: translate(-40%,-27%);
+    background-color: #DEEEFC;
+    padding: 20px;
+    border-radius: 10px;
+   z-index: 2000;
+
+   display: none;
+  }
+  
+  
+  
+  .login.loginactive {
+    display: block;
+  }
+  
+  
+  
+  
+  .login.logindeactive {
+    display: none;
+  }
+  
+  
+  .closespan {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+    z-index: 2000;
+  }
+  
+  .closespan svg{
+  
+   width: 25px;
+   height: 25px;
+   color: #0046b0;
+  }
+  
+  .login form {
+   margin-top: 10px;
+  }
+  
+  
+   
+  
+  
+  .name p {
+    margin-top: 10px;
+  }
+    .login .name label
+  {
+    text-align: left;
+  }
+  .login .name h5 {
+    font-family: "IBM Plex Serif";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+  
+    color: rgba(6, 18, 36, 0.9);
+  }
+  .login  .name form input {
+    margin-top: 6px;
+    margin-bottom: 6px;
+    width: 350px;
+    height: 40px;
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: #ffffff;
+    border: 1px solid rgba(6, 18, 36, 0.9);
+    box-sizing: border-box;
+    border-radius: 48px;
+  }
+   .login .name label {
+    padding-left: 10px;
+    margin-bottom: 100px;
+    font-family: "IBM Plex Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+  
+    color: rgba(6, 18, 36, 0.9);
+  
+    mix-blend-mode: normal;
+  }
+  
+  .btnlogin {
+    text-align: center;
+  }
+   .login .name button {
+    width: 40%;
+    margin: auto;
+    height: 40px;
+    border: none;
+    background: #1064e5;
+    border-radius: 45px;
+    color: #fff;
+    font-family: "IBM Plex Sans";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s ease;
+    margin-top: 10px;
+    cursor: pointer;
+    /* white */
+  
+    color: #ffffff;
+  }
+  .login .name button:hover {
+    background: #fff;
+    color: var(--maincolor);
+  }
+    
+/* test */
+.name{
+  /* margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px; */
+ 
+  
+}
+.name h5 {
+font-family: "IBM Plex Serif";
+font-style: normal;
+font-weight: 500;
+font-size: 25px;
+line-height: 48px;
+
+color: rgba(6, 18, 36, 0.9);
+}
+.name form input {
+margin-top: 3px;
+margin-bottom: 3px;
+width: 100%;
+height: 40px;
+border-radius: 30px;
+padding-left: 10px;
+background: #ffffff;
+border: 1px solid rgba(6, 18, 36, 0.9);
+box-sizing: border-box;
+border-radius: 48px;
+}
+.name label {
+padding-left: 10px;
+margin-bottom: 100px;
+font-family: "IBM Plex Sans";
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 28px;
+
+color: rgba(6, 18, 36, 0.9);
+
+mix-blend-mode: normal;
+}
+.name textarea {
+margin-top: 6px;
+margin-bottom: 6px;
+width: 100%;
+height: 138px;
+border-radius: 10px;
+
+background: #ffffff;
+
+resize: none;
+padding: 10px;
+}
+.name button {
+width: 100%;
+height: 40px;
+border: none;
+background: #1064e5;
+border-radius: 45px;
+color: #fff;
+font-family: "IBM Plex Sans";
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
+
+text-align: center;
+text-transform: uppercase;
+transition: 0.5s ease;
+
+/* white */
+
+color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
 }
 
@@ -1733,20 +2146,20 @@ color: rgba(6, 18, 36, 0.9);
     width: 100%;
     
   }
-  .forms {
+  .yasil .forms {
     width: 50%;
   }
   .maps {
     
     margin-right: 50px;
   }
-  .name{
+  .yasil .name{
       margin-top: 10px;
       margin-left: 50px;
       margin-right: 50px;
       margin-bottom: 20px;
   }
-  .name h5 {
+  .yasil .name h5 {
     font-family: "IBM Plex Serif";
     font-style: normal;
     font-weight: 500;
@@ -1755,7 +2168,7 @@ color: rgba(6, 18, 36, 0.9);
   
     color: rgba(6, 18, 36, 0.9);
   }
-  .name form input {
+  .yasil .name form input {
     margin-top: 6px;
     margin-bottom: 6px;
     width: 350px;
@@ -1767,7 +2180,7 @@ color: rgba(6, 18, 36, 0.9);
     box-sizing: border-box;
     border-radius: 48px;
   }
-  .name label {
+  .yasil .name label {
     padding-left: 10px;
     margin-bottom: 100px;
     font-family: "IBM Plex Sans";
@@ -1780,7 +2193,7 @@ color: rgba(6, 18, 36, 0.9);
   
     mix-blend-mode: normal;
   }
-  .name textarea {
+  .yasil .name textarea {
     margin-top: 6px;
     margin-bottom: 6px;
     width: 350px;
@@ -1792,7 +2205,7 @@ color: rgba(6, 18, 36, 0.9);
     resize: none;
     padding: 10px;
   }
-  .name button {
+  .yasil .name button {
     width: 217px;
     height: 40px;
     border: none;
@@ -1813,7 +2226,7 @@ color: rgba(6, 18, 36, 0.9);
   
     color: #ffffff;
   }
-  .name button:hover {
+  .yasil .name button:hover {
     background: #fff;
     color: var(--maincolor);
   }
@@ -1837,7 +2250,7 @@ color: rgba(6, 18, 36, 0.9);
   
   
   }
-  .name p{
+  .yasil .name p{
     font-family: 'IBM Plex Sans';
 font-style: normal;
 font-weight: 400;
@@ -1849,7 +2262,96 @@ text-align: center;
 
 color: rgba(6, 18, 36, 0.9);
   }
- 
+  .name{
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}
+.name h5 {
+  font-family: "IBM Plex Serif";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+
+  color: rgba(6, 18, 36, 0.9);
+}
+.name form input {
+  margin-top: 6px;
+  margin-bottom: 6px;
+  width: 350px;
+  height: 40px;
+  border-radius: 30px;
+  padding-left: 10px;
+  background: #ffffff;
+  border: 1px solid rgba(6, 18, 36, 0.9);
+  box-sizing: border-box;
+  border-radius: 48px;
+}
+.name label {
+  padding-left: 10px;
+  margin-bottom: 100px;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+
+  color: rgba(6, 18, 36, 0.9);
+
+  mix-blend-mode: normal;
+}
+.name textarea {
+  margin-top: 6px;
+  margin-bottom: 6px;
+  width: 350px;
+  height: 138px;
+  border-radius: 10px;
+
+  background: #ffffff;
+  width: 350px;
+  resize: none;
+  padding: 10px;
+}
+.name button {
+  width: 217px;
+  height: 40px;
+  border: none;
+  background: #1064e5;
+  border-radius: 45px;
+  color: #fff;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s ease;
+
+  /* white */
+
+  color: #ffffff;
+}
+.name button:hover {
+  background: #fff;
+  color: var(--maincolor);
+}
+.login {
+  position: absolute;
+  top: 27%;
+  left: 50%;
+  
+  transform: translate(-50%,-27%);
+  background-color: #DEEEFC;
+  padding: 20px;
+  border-radius: 10px;
+ z-index: 2000;
+
+ display: none;
+}
   
   
 }
